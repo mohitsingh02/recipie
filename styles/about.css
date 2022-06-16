@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(36, 33, 39);
+}
+
+.fnt{
+    font-family: Cherry Swash;
+}
+.navbar{
+    font-family: Cherry Swash;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.navbar-brand{
+    padding-left: 1vw;
+}
+.bg-img{
+    height: 70vh;
+    background-image: url(MS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hding{
+    padding-top: 10vh;
+    color: white;
+    font-family: Cherry Swash;
+    font-size: 15vh;
+    text-align: center;
+}
+.desc{
+    font-family: Playfair Display;
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+}
+.details{
+    color: white;
+}
+
+footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.877);
+    font-family: Playfair Display;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 320px){
+   .hding{
+       padding-top: 20vh;
+       font-size: 5vh;
+   }
+  
+}
+
+@media screen and (min-width: 724px) and (max-width: 1050px){
+    .navbar-brand{
+        font-size: 2.5vh;
+    }
+    .navbar{
+        font-size: 2vh;
+    }
+}
+@media screen and (min-width: 1050px) {
+    .navbar-brand{
+        font-size: 3.5vh;
+    }
+    .navbar{
+        font-size: 2.5vh;
+    }
+    
+}

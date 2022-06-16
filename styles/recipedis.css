@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+
+
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    font-family: Cherry Swash;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.navbar-brand{
+    padding-left: 1vw;
+}
+.bg-img{
+    height: 50vh;
+    background-image: url(../assests/21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover{
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.hding{
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+    font-family: Cherry Swash;
+    font-size: 5vh;
+}
+.res-dis{
+    background-color: rgba(0, 0, 0, 0.897);
+}
+.r-name{
+    padding-top: 8vh;
+    color: white;
+    font-family: Cherry Swash;
+    font-size: 4vh;
+    font-weight: bold;
+}
+.det{
+    color: white;
+    font-family: Cherry Swash;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.part{
+    color: white;
+    font-family: Cherry Swash;
+    font-size: 4vh;
+
+}
+.ingrdnt{
+    color: white;
+    font-family: Playfair Dislay;
+    list-style: none;
+    font-size: 3vh;
+}
+.step{
+    color: white;
+    font-family: Playfair Dislay;
+    list-style: decimal;
+    font-size: 3vh;
+}
+
+
+
+
+
+
+footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.877);
+    font-family: Playfair Display;
+}
+
+
+@media screen and  (max-width: 320px){
+    .hding{
+        padding-top: 20vh;
+        font-size: 5vh;
+    }
+   
+ }
+ 
+ @media screen and (min-width: 724px) and (max-width: 1050px){
+     .navbar-brand{
+         font-size: 2.5vh;
+     }
+     .navbar{
+         font-size: 2vh;
+     }
+ }
+ @media screen and (min-width: 1050px) {
+     .navbar-brand{
+         font-size: 3.5vh;
+     }
+     .navbar{
+         font-size: 2.5vh;
+     }
+     
+ }
